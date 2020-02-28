@@ -752,3 +752,17 @@
 # 8.small-exercises
 
 - 见idea源码
+
+- ```xml
+  <!--设置首页欢迎页为login.jsp-->
+      <welcome-file-list>
+          <welcome-file>login.jsp</welcome-file>
+      </welcome-file-list>
+  
+  <!-- 默认session过期时间  -->
+      <session-config>
+          <session-timeout>30</session-timeout>
+      </session-config>
+  ```
+
+  
